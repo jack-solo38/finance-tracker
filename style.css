@@ -1,0 +1,120 @@
+body {
+    background: #0f1115;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 40px;
+}
+
+h1 {
+    text-align: center;
+    letter-spacing: 3px;
+    margin-bottom: 40px;
+}
+
+
+.balance {
+    max-width: 500px;
+    margin: auto;
+    padding: 25px;
+    background: #181b21;
+    border: 1px solid #2d333d;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.balance h2 {
+    color: #888;
+    font-size: 16px;
+}
+
+#balance {
+    font-size: 40px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+#amount {
+    font-size: 20px;
+    padding: 15px;
+    height: 25px;
+}
+
+.transaction {
+    max-width: 500px;
+    margin: 25px auto;
+    padding: 25px;
+    background: #181b21;
+    border: 1px solid #2d333d;
+    border-radius: 12px;
+}
+
+input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px;
+    margin-bottom: 12px;
+    background: #0f1115;
+    color: white;
+    border: 1px solid #333;
+    border-radius: 6px;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background: #2ecc71;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+button:hover {
+    background: #27ae60;
+}
+
+div > h2 {
+    text-align: center;
+}
+
+#transactions {
+    max-width: 550px;
+    margin: auto;
+    padding: 0;
+}
+
+#transactions li {
+    list-style: none;
+    background: #181b21;
+    border: 1px solid #2d333d;
+    margin: 10px auto;
+    padding: 18px;
+    border-radius: 8px;
+
+    font-size: 20px;
+    text-align: center;
+    max-width: 500px;
+}
+#message {
+    text-align: center;
+    color: #ff4d4d;
+    font-size: 14px;
+    margin-top: 12px;
+}
+#type {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px;
+    margin-bottom: 12px;
+    background: #0f1115;
+    color: white;
+    border: 1px solid #333;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+#type:hover {
+    border-color: #2ecc71;
+}
